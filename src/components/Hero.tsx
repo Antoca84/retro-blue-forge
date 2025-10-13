@@ -16,15 +16,15 @@ export const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in-up">
         <h1 
           className="text-6xl md:text-8xl font-orbitron font-black mb-6 glitch neon-glow"
-          data-text="INDUSTRIAL COWORKING"
+          data-text="WEE SPACE"
         >
-          INDUSTRIAL<br />COWORKING
+          WEE SPACE
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto font-inter">
-          Spazio creativo dove industrial design incontra retrogaming e VFX.
+          La tua seconda casa. Accesso 24/7, tranquillità e spazio per costruire i tuoi sogni.
           <span className="block mt-2 text-accent animate-neon-pulse">
-            Featured: Sala Blu VFX con illuminazione RGB
+            Un coworking diverso, nel cuore di NoLo (Milano)
           </span>
         </p>
         

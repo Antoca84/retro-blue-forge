@@ -24,54 +24,24 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-orbitron font-bold mb-2 text-foreground">
-                    Indirizzo
+                    Posizione
                   </h3>
                   <p className="text-muted-foreground font-inter">
-                    [Il tuo indirizzo qui]
+                    NoLo, Milano<br />
+                    Metro Pasteur (MM1) • Tram 1
                   </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4 group">
-                <div className="p-3 bg-primary/10 rounded-md group-hover:bg-primary/20 transition-colors">
-                  <Mail className="w-6 h-6 text-primary" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-orbitron font-bold mb-2 text-foreground">
-                    Email
-                  </h3>
-                  <a 
-                    href="mailto:info@tuocoworking.it" 
-                    className="text-muted-foreground font-inter hover:text-primary transition-colors"
-                  >
-                    info@tuocoworking.it
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4 group">
-                <div className="p-3 bg-primary/10 rounded-md group-hover:bg-primary/20 transition-colors">
-                  <Phone className="w-6 h-6 text-primary" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-orbitron font-bold mb-2 text-foreground">
-                    Telefono
-                  </h3>
-                  <a 
-                    href="tel:+39123456789" 
-                    className="text-muted-foreground font-inter hover:text-primary transition-colors"
-                  >
-                    +39 123 456 789
-                  </a>
                 </div>
               </div>
 
               <div className="pt-6 border-t border-primary/20">
                 <Button 
                   size="lg"
+                  asChild
                   className="w-full font-orbitron text-lg py-6 neon-box bg-primary hover:bg-primary/90 transition-all duration-300"
                 >
-                  Prenota una Visita
+                  <a href="https://form.venini59.com" target="_blank" rel="noopener noreferrer">
+                    Compila il Form di Contatto
+                  </a>
                 </Button>
               </div>
             </div>
@@ -79,7 +49,7 @@ export const Contact = () => {
 
           <div className="mt-12 text-center">
             <p className="text-sm text-muted-foreground font-inter">
-              Orari di apertura: Lunedì - Venerdì, 8:00 - 20:00
+              Accesso 24/7 per i membri
             </p>
           </div>
         </div>

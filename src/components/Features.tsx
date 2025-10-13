@@ -4,34 +4,34 @@ import { Wifi, Coffee, Monitor, Users, Zap, Lock } from "lucide-react";
 export const Features = () => {
   const amenities = [
     {
-      icon: Wifi,
-      title: "Fibra Ultra-veloce",
-      description: "Connessione dedicata ad alta velocità"
-    },
-    {
-      icon: Monitor,
-      title: "Attrezzatura Pro",
-      description: "Setup completo per streaming e VFX"
-    },
-    {
-      icon: Coffee,
-      title: "Area Relax",
-      description: "Cucina attrezzata e spazi break"
-    },
-    {
-      icon: Users,
-      title: "Sala Meeting",
-      description: "Spazi per collaborazione e brainstorming"
-    },
-    {
       icon: Zap,
-      title: "24/7 Access",
-      description: "Accesso flessibile h24"
+      title: "Accesso 24/7",
+      description: "Codice personale per accedere quando vuoi"
+    },
+    {
+      icon: Wifi,
+      title: "Wi-Fi Fibra Ultra Veloce",
+      description: "Connessione stabile e performante"
     },
     {
       icon: Lock,
-      title: "Sicurezza",
-      description: "Sistema di accesso controllato"
+      title: "Videosorveglianza",
+      description: "Sistema di sicurezza e armadietto personale con chiave"
+    },
+    {
+      icon: Coffee,
+      title: "Zona Caffè",
+      description: "Macchina caffè, microonde e bollitore"
+    },
+    {
+      icon: Monitor,
+      title: "Stampante & Tritacarte",
+      description: "Tutto quello di cui hai bisogno per lavorare"
+    },
+    {
+      icon: Users,
+      title: "Bagno Privato & Cortile",
+      description: "Spazio interno luminoso e silenzioso"
     }
   ];
 

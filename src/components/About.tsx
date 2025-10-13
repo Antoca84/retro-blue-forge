@@ -5,18 +5,18 @@ export const About = () => {
   const features = [
     {
       icon: Cpu,
-      title: "Industrial Design",
-      description: "Soffitti a volta storici incontrano il design contemporaneo. Spazi luminosi con estetica industrial-chic."
+      title: "Piccolo e Curato",
+      description: "Pensato per chi vuole lavorare in serenità, senza l'affollamento dei grandi spazi. Il comfort di casa con la concentrazione di un vero ambiente professionale."
     },
     {
       icon: Gamepad2,
-      title: "Retrogaming Vibes",
-      description: "Atmosfera unica ispirata alla golden age del gaming. Creatività e nostalgia si fondono in armonia."
+      title: "Nel Cuore di NoLo",
+      description: "A pochi passi dalla metro rossa Pasteur e con il tram 1 proprio sotto casa. L'ambiente ideale per freelance, creativi digitali e professionisti."
     },
     {
       icon: Sparkles,
-      title: "Sala VFX Blu",
-      description: "Stanza completamente blu equipaggiata per videomaking, streaming e produzioni creative con illuminazione RGB professionale."
+      title: "Blue Space Incluso",
+      description: "Un set attrezzato per registrazioni, video call o contenuti digitali. Disponibile una volta a settimana per tutti i membri."
     }
   ];
 
@@ -28,8 +28,8 @@ export const About = () => {
             IL NOSTRO SPAZIO
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-inter">
-            Un coworking che ridefinisce l'ambiente di lavoro. Dove la storia architettonica 
-            incontra la tecnologia moderna, creando l'ecosistema perfetto per professionisti creativi.
+            Piccolo, silenzioso e curato. Un coworking diverso nel cuore di NoLo, 
+            dove puoi costruire i tuoi sogni con tranquillità e concentrazione.
           </p>
         </div>
 

@@ -5,16 +5,16 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
             <h3 className="font-orbitron font-bold text-xl text-primary neon-glow mb-2">
-              INDUSTRIAL COWORKING
+              WEE SPACE
             </h3>
             <p className="text-sm text-muted-foreground font-inter">
-              Industrial Design • Retrogaming • VFX
+              Coworking NoLo • Milano
             </p>
           </div>
           
           <div className="text-center md:text-right">
             <p className="text-sm text-muted-foreground font-inter">
-              © 2025 Industrial Coworking. Tutti i diritti riservati.
+              © 2025 Wee Space. Tutti i diritti riservati.
             </p>
           </div>
         </div>
