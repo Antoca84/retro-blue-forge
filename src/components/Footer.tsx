@@ -14,7 +14,7 @@ export const Footer = () => {
           
           <div className="text-center md:text-right">
             <p className="text-sm text-muted-foreground font-inter">
-              © 2025 Wee Space. Tutti i diritti riservati.
+              © 2026 Wee Space. Tutti i diritti riservati.
             </p>
           </div>
         </div>
