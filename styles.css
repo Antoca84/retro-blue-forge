@@ -406,9 +406,8 @@ h1, h2, h3 {
 .price-original {
     font-size: 1.8rem;
     font-family: 'Orbitron', sans-serif;
-    color: hsl(0, 70%, 55%);
+    color: hsl(220, 10%, 45%);
     text-decoration: none;
-    opacity: 0.85;
     display: inline-block;
     position: relative;
     margin-bottom: 0.25rem;
@@ -421,9 +420,10 @@ h1, h2, h3 {
     right: -4px;
     top: 50%;
     height: 3px;
-    background: hsl(0, 70%, 55%);
+    background: hsl(217, 91%, 55%);
     transform: rotate(-15deg);
     border-radius: 2px;
+    box-shadow: 0 0 8px hsla(217, 91%, 55%, 0.5);
 }
 
 .price-amount {
