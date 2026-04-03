@@ -1,11 +1,13 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Check } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import { Check, Zap } from "lucide-react";
 
 export const Pricing = () => {
   const plans = [
     {
       name: "Smart Desk",
+      originalPrice: "189",
       price: "150",
       description: "La tua postazione personale in area condivisa",
       features: [
@@ -17,7 +19,8 @@ export const Pricing = () => {
     },
     {
       name: "Full Desk",
-      price: "240",
+      originalPrice: "289",
+      price: "229",
       description: "Una scrivania intera solo per te",
       features: [
         "Scrivania intera dedicata",
@@ -46,13 +49,21 @@ export const Pricing = () => {
           {plans.map((plan, index) => (
             <Card
               key={index}
-              className={`p-8 bg-card transition-all duration-500 group animate-fade-in-up ${
+              className={`relative p-8 bg-card transition-all duration-500 group animate-fade-in-up overflow-hidden ${
                 plan.featured
                   ? 'border-primary border-2 neon-box'
                   : 'border-primary/20 hover:border-primary/50'
               }`}
               style={{ animationDelay: `${index * 0.2}s` }}
             >
+              {/* Discount badge */}
+              <div className="absolute top-4 right-4">
+                <Badge className="bg-primary text-primary-foreground font-orbitron text-sm px-3 py-1 neon-box flex items-center gap-1">
+                  <Zap className="w-3 h-3" />
+                  -20%
+                </Badge>
+              </div>
+
               <div className="text-center mb-6">
                 <h3 className="text-3xl font-orbitron font-black mb-2 text-foreground">
                   {plan.name}
@@ -60,6 +71,11 @@ export const Pricing = () => {
                 <p className="text-muted-foreground font-inter mb-4">
                   {plan.description}
                 </p>
+                <div className="mb-2">
+                  <span className="text-2xl font-orbitron line-through text-muted-foreground/50">
+                    €{plan.originalPrice}
+                  </span>
+                </div>
                 <div className="mb-6">
                   <span className="text-5xl font-orbitron font-black text-primary neon-glow">
                     €{plan.price}
