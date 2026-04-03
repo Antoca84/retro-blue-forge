@@ -404,13 +404,26 @@ h1, h2, h3 {
 }
 
 .price-original {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: 'Orbitron', sans-serif;
-    color: var(--text-muted);
-    text-decoration: line-through;
-    opacity: 0.5;
-    display: block;
+    color: hsl(0, 70%, 55%);
+    text-decoration: none;
+    opacity: 0.85;
+    display: inline-block;
+    position: relative;
     margin-bottom: 0.25rem;
+}
+
+.price-original::after {
+    content: '';
+    position: absolute;
+    left: -4px;
+    right: -4px;
+    top: 50%;
+    height: 3px;
+    background: hsl(0, 70%, 55%);
+    transform: rotate(-15deg);
+    border-radius: 2px;
 }
 
 .price-amount {
